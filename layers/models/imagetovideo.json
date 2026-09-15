@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/imagetovideo",
+ "attributes": {
+  "task": "image-to-video",
+  "library": "gguf",
+  "license": "openrail++",
+  "server": "hosted",
+  "sizeGB": 0,
+  "role": "image-to-video",
+  "family": "hosted",
+  "provider": "replicate"
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/timeseriesforecasting",
+ "attributes": {
+  "task": "time-series-forecasting",
+  "library": "gguf",
+  "license": "mit",
+  "server": "hosted",
+  "sizeGB": 0,
+  "role": "time-series-forecasting",
+  "family": "hosted",
+  "provider": "replicate"
+ }
+}

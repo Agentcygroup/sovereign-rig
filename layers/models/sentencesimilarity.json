@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/sentencesimilarity",
+ "attributes": {
+  "task": "sentence-similarity",
+  "library": "gguf",
+  "license": "mit",
+  "server": "llama",
+  "sizeGB": 0.13,
+  "role": "sentence-similarity",
+  "family": "bge-small-en-v1.5-q8_0"
+ },
+ "payload": "~/.llama/models/bge-small-en-v1.5-q8_0.gguf"
+}

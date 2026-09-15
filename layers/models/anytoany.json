@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/anytoany",
+ "attributes": {
+  "task": "any-to-any",
+  "library": "gguf",
+  "license": "apache-2.0",
+  "server": "hosted",
+  "sizeGB": 0,
+  "role": "any-to-any",
+  "family": "hosted",
+  "provider": "hf-inference-api"
+ }
+}

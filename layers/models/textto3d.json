@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/textto3d",
+ "attributes": {
+  "task": "text-to-3d",
+  "library": "gguf",
+  "license": "mit",
+  "server": "hosted",
+  "sizeGB": 0,
+  "role": "text-to-3d",
+  "family": "hosted",
+  "provider": "fal"
+ }
+}

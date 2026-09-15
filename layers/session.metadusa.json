@@ -1,0 +1,14 @@
+{
+ "layer": "session.metadusa",
+ "variantSelection": {
+  "/rig": {
+   "genVariant": "harness",
+   "loadout": "full"
+  }
+ },
+ "overrides": {
+  "/server": {
+   "port": 8080
+  }
+ }
+}

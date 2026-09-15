@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/texttoimage",
+ "attributes": {
+  "task": "text-to-image",
+  "library": "gguf",
+  "license": "openrail++",
+  "server": "sd",
+  "sizeGB": 7,
+  "role": "text-to-image",
+  "family": "sdxl-turbo-fp16"
+ },
+ "payload": "~/.sd/models/sd_xl_turbo_1.0_fp16.safetensors"
+}

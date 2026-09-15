@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/texttospeech",
+ "attributes": {
+  "task": "text-to-speech",
+  "library": "gguf",
+  "license": "apache-2.0",
+  "server": "llama",
+  "sizeGB": 0.3,
+  "role": "text-to-speech",
+  "family": "kokoro-82m-v1.0"
+ },
+ "payload": "~/.llama/models/kokoro-82m-v1.0.gguf"
+}

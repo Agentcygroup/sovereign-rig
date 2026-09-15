@@ -1,0 +1,3 @@
+{"layer":"base.machine","prims":{
+"/machine":{"attributes":{"chip":"M4 Max","memoryGB":128,"memoryBudgetGB":96}},
+"/server":{"attributes":{"host":"127.0.0.1","port":8080,"ctxSize":32768,"gpuLayers":999,"modelsMax":3}}}}

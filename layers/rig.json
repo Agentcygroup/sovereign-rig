@@ -1,0 +1,35 @@
+{
+ "layer": "rig",
+ "prims": {
+  "/rig": {
+   "variantSets": {
+    "genVariant": {
+     "harness": {
+      "references": [
+       "/models/textgeneration",
+       "/models/imagetexttotext",
+       "/models/automaticspeechrecognition",
+       "/models/texttospeech",
+       "/models/sentencesimilarity",
+       "/models/texttoimage"
+      ]
+     }
+    },
+    "loadout": {
+     "full": {
+      "attributes": {
+       "ctxSize": 32768,
+       "modelsMax": 3
+      }
+     },
+     "lean": {
+      "attributes": {
+       "ctxSize": 8192,
+       "modelsMax": 1
+      }
+     }
+    }
+   }
+  }
+ }
+}

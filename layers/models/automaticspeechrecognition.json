@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/automaticspeechrecognition",
+ "attributes": {
+  "task": "automatic-speech-recognition",
+  "library": "gguf",
+  "license": "mit",
+  "server": "whisper",
+  "sizeGB": 1.6,
+  "role": "automatic-speech-recognition",
+  "family": "ggml-large-v3-turbo"
+ },
+ "payload": "~/.whisper/models/ggml-large-v3-turbo.bin"
+}

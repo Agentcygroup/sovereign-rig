@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/reinforcementlearning",
+ "attributes": {
+  "task": "reinforcement-learning",
+  "library": "gguf",
+  "license": "mit",
+  "server": "hosted",
+  "sizeGB": 0,
+  "role": "reinforcement-learning",
+  "family": "hosted",
+  "provider": "replicate"
+ }
+}

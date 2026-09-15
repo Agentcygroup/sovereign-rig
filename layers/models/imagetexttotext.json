@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/imagetexttotext",
+ "attributes": {
+  "task": "image-text-to-text",
+  "library": "gguf",
+  "license": "apache-2.0",
+  "server": "llama",
+  "sizeGB": 5,
+  "role": "image-text-to-text",
+  "family": "qwen2.5-vl-7b-instruct-q4_k_m"
+ },
+ "payload": "~/.llama/models/qwen2.5-vl-7b-instruct-q4_k_m.gguf"
+}

@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/textgeneration",
+ "attributes": {
+  "task": "text-generation",
+  "library": "gguf",
+  "license": "apache-2.0",
+  "server": "llama",
+  "sizeGB": 19,
+  "role": "text-generation",
+  "family": "qwen3-32b-q4_k_m"
+ },
+ "payload": "~/.llama/models/qwen3-32b-q4_k_m.gguf"
+}

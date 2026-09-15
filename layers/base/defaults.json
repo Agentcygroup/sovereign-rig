@@ -1,0 +1,2 @@
+{ "layer": "base.defaults",
+  "prims": { "/rig": { "attributes": { "ctxSize": 8192, "modelsMax": 1 } } } }

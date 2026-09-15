@@ -1,0 +1,3 @@
+{ "layer": "base.server",
+  "prims": { "/server": { "attributes": { "host": "127.0.0.1", "port": 8080,
+                                          "log": "~/.llama/router.log" } } } }

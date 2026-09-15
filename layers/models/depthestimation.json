@@ -1,0 +1,13 @@
+{
+ "primPath": "/models/depthestimation",
+ "attributes": {
+  "task": "depth-estimation",
+  "library": "gguf",
+  "license": "mit",
+  "server": "hosted",
+  "sizeGB": 0,
+  "role": "depth-estimation",
+  "family": "hosted",
+  "provider": "fal"
+ }
+}
