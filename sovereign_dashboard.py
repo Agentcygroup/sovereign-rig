@@ -10,7 +10,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.metric("Cluster Status", "ONLINE", "3 Active Nodes")
 with col2:
-    st.metric("Mesh Security", "SECURE", "Zero Egress")
+    st.metric("Protocols", "REST & WS", "Active Dual-Stack")
 with col3:
     st.metric("Ray / Memory Grid", "SYNCHRONIZED", "Active")
 

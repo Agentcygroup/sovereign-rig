@@ -15,6 +15,6 @@ jobs:
           python-version: '3.12'
       - name: Validate Core Modules
         run: |
-          pip install fastapi uvicorn streamlit pydantic ray redis psutil requests
+          pip install fastapi uvicorn streamlit pydantic ray redis psutil requests websockets
           python3 -c "import sovereign_gateway; print('Gateway Verified')"
           python3 -c "import sovereign_dashboard; print('Dashboard Verified')"
