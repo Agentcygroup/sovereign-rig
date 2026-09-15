@@ -1,4 +1,4 @@
-name: UCS Enterprise Pipeline
+name: UCS Symmetrical Enterprise CI/CD
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate UCS Artifacts
+      - name: Validate Symmetrical Artifacts
         run: |
           pip install fastapi uvicorn streamlit pydantic ray redis psutil requests websockets
           python3 -c "import sovereign_gateway; print('Gateway Verified')"

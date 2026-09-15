@@ -1,16 +1,20 @@
 {
-  "system": "Sovereign Omni-Universe Rig",
-  "version": "3.2.0",
-  "architecture": "Specification-Driven UCS",
-  "cluster": [
-    "node-01",
-    "node-02",
-    "node-03"
-  ],
-  "backend": "Apple_Silicon_MLX",
-  "protocols": [
-    "REST",
-    "WebSocket"
-  ],
-  "security": "Zero-Egress Constitutional Enforced"
+  "architecture": "Symmetric Multi-Node Mesh",
+  "nodes": [
+    {
+      "id": "node-01",
+      "role": "Primary Gateway & Compute",
+      "substrate": "Apple_Silicon_MLX"
+    },
+    {
+      "id": "node-02",
+      "role": "Secondary Worker & Cache",
+      "substrate": "Apple_Silicon_MLX"
+    },
+    {
+      "id": "node-03",
+      "role": "Tertiary Sentinel & Observer",
+      "substrate": "Apple_Silicon_MLX"
+    }
+  ]
 }
