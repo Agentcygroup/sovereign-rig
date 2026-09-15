@@ -3,7 +3,7 @@ import ray
 import redis
 import logging
 
-logging.basicConfig(level=logging.INFO, format="[%(asctime)s] [SovereignCache] %(message)s")
+logging.basicConfig(level=logging.INFO, format="[%(asctime)s] [UCS-Cache] %(message)s")
 logger = logging.getLogger("SovereignCacheEngine")
 
 class SovereignMemoryGrid:
@@ -14,7 +14,7 @@ class SovereignMemoryGrid:
             logger.info("Connected to Redis metadata bus.")
         except:
             self.redis = None
-            logger.info("Redis offline; running on Ray distributed object store substrate.")
+            logger.info("Redis offline; routing via Ray distributed object substrate.")
             
         if not ray.is_initialized():
             ray.init(ignore_reinit_error=True, include_dashboard=False)
@@ -29,4 +29,4 @@ class SovereignMemoryGrid:
 
 if __name__ == "__main__":
     grid = SovereignMemoryGrid()
-    print(grid.execute("test_key", {"shape": [1, 3, 512, 512]}))
+    print(grid.execute("ucs_test", {"mesh_nodes": 3}))

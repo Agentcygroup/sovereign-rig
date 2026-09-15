@@ -1,1 +1,16 @@
-{"rig_name": "Sovereign Omni-Universe Rig", "version": "3.0.0", "cluster": ["node-01", "node-02", "node-03"]}
+{
+  "system": "Sovereign Omni-Universe Rig",
+  "version": "3.2.0",
+  "architecture": "Specification-Driven UCS",
+  "cluster": [
+    "node-01",
+    "node-02",
+    "node-03"
+  ],
+  "backend": "Apple_Silicon_MLX",
+  "protocols": [
+    "REST",
+    "WebSocket"
+  ],
+  "security": "Zero-Egress Constitutional Enforced"
+}
