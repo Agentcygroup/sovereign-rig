@@ -9,7 +9,8 @@ def read_root():
         "system": "Sovereign Omni-Universe Rig",
         "status": "OPERATIONAL",
         "node": os.uname().nodename,
-        "mesh": ["node-01", "node-02", "node-03"]
+        "mesh": ["node-01", "node-02", "node-03"],
+        "backend": "Apple_Silicon_MLX"
     }
 
 @app.get("/health")

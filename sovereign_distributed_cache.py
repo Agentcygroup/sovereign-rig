@@ -11,8 +11,11 @@ class SovereignMemoryGrid:
         try:
             self.redis = redis.Redis(host="localhost", port=6379, decode_responses=True)
             self.redis.ping()
+            logger.info("Connected to Redis metadata bus.")
         except:
             self.redis = None
+            logger.info("Redis offline; running on Ray distributed object store substrate.")
+            
         if not ray.is_initialized():
             ray.init(ignore_reinit_error=True, include_dashboard=False)
 

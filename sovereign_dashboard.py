@@ -12,7 +12,7 @@ with col1:
 with col2:
     st.metric("Mesh Security", "SECURE", "Zero Egress")
 with col3:
-    st.metric("Ray / Redis Cache", "SYNCHRONIZED", "Active")
+    st.metric("Ray / Memory Grid", "SYNCHRONIZED", "Active")
 
 st.subheader("Live Cluster Node Telemetry")
 try:
