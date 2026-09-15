@@ -1,4 +1,4 @@
-name: Sovereign Enterprise Deployment Pipeline
+name: Sovereign Enterprise CI/CD
 
 on:
   push:
@@ -6,31 +6,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  sovereign-enterprise-pipeline:
+  deploy:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout Sovereign Rig
-        uses: actions/checkout@v4
-
-      - name: Set up Python Environment
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install Enterprise Dependencies
+      - name: Validate Core Modules
         run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install uvicorn fastapi streamlit pydantic
-
-      - name: Execute Sovereign Core Validation
-        run: |
-          echo "[Sovereign Sentinel] Running autonomous component validation..."
-          python3 -c "import sovereign_gateway; print('[OK] Sovereign Gateway verified.')"
-          python3 -c "import sovereign_dashboard; print('[OK] Sovereign Dashboard verified.')"
-
-      - name: Enterprise Deployment Synchronization
-        run: |
-          echo "[Sovereign Rig] Enterprise deployment pipeline synchronized successfully."
+          pip install fastapi uvicorn streamlit pydantic ray redis psutil requests
+          python3 -c "import sovereign_gateway; print('Gateway Verified')"
+          python3 -c "import sovereign_dashboard; print('Dashboard Verified')"
